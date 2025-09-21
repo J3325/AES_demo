@@ -90,7 +90,7 @@ menggunakan jsonify untuk membuat dua url agar mudah dibandingkan
     })
 ```
 ### output
-gambar
+![doc](doc/2.png)
 
 ### Halaman profil Polos dari url asli
 ```python
@@ -114,7 +114,9 @@ def profile_plain():
 * Mengecek apakah id ada di dalam dictionary users.
 * Jika ada → menampilkan profil user (ID, Nama, Isi).
 * Jika tidak ada → menampilkan pesan bahwa user tidak ditemukan.
-### gambar
+### output
+![doc](doc/3.png)
+![doc](doc/5.png)
 
 ### Halaman profil enkrip dari url encripted
 ```python
@@ -143,7 +145,9 @@ def profile_route():
 * Sistem mencoba mendekripsi uid → jadi user_id asli.
 * Jika hasil dekripsi cocok dengan data di users, maka profil ditampilkan.
 * Jika uid salah/invalid, akan muncul error "UID tidak valid!".
-### gambar
+### output
+![doc](doc/4.png)
+![doc](doc/6.png)
 
 ### requirement.txt
 ```
@@ -171,9 +175,9 @@ pip install -r requirements.txt
 python app.py
 ```
 * Buka browser ke: http://localhost:5000
+![doc](doc/1.png)
 
 ### apa itu venv
-
 `venv` adalah singkatan dari **virtual environment**.
 Bayangkan seperti bikin **ruangan khusus** untuk project Python kamu.
 
@@ -200,4 +204,5 @@ secnotes/
 └── static/                # Folder untuk CSS/JS
     └── style.css
 ```
+
 
