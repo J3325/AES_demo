@@ -1,0 +1,8 @@
+#aktifkan dulu diterminal directori ini
+venv\Scripts\activate  
+
+#install dependesi
+pip install -r requirements.txt
+
+# Baru jalankan
+python app.py
