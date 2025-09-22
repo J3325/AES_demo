@@ -194,7 +194,7 @@ Dengan `venv`, kamu bisa bikin project Python yang lebih rapi, aman, dan fleksib
 
 ### Susunan folder dan file
 ```
-secnotes/
+ENKRIPEAS/
 │── venv/                 # Virtual environment (dibuat otomatis)
 │── app.py                # File utama Flask (server + AES)
 │── requirements.txt       # Daftar dependency
@@ -204,5 +204,6 @@ secnotes/
 └── static/                # Folder untuk CSS/JS
     └── style.css
 ```
+
 
 
