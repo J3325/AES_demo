@@ -1,3 +1,6 @@
+#awal
+python -m venv venv
+
 #aktifkan dulu diterminal directori ini
 venv\Scripts\activate  
 

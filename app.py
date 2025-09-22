@@ -11,8 +11,8 @@ SECRET_KEY = hashlib.sha256(b"yangbikintampansekali").digest()
 
 #Data dummy untuk demo
 users = {
-    "12345": {"name": "zaky", "isi": "hallooo gaes"},
-    "67890": {"name": "fadil", "isi": "haiiiii"},
+    "12345": {"name": "zaky", "jabatan": "CEO"},
+    "67890": {"name": "fadil", "jabatan": "Manager"},
 }
 
 #fungsi enkripsi
@@ -64,7 +64,7 @@ def profile_plain():
         <h1>Profil User (polos)</h1>
         <p><b>ID:</b> {user_id}</p>
         <p><b>Nama:</b> {data['name']}</p>
-        <p><b>isi:</b> {data['isi']}</p>
+        <p><b>jabatan:</b> {data['jabatan']}</p>
         """
     else:
         return f"User dengan ID {user_id} tidak ada!"
@@ -83,7 +83,7 @@ def profile_route():
             <h1>Profil User (enkrip)</h1>
             <p><b>ID:</b> {user_id}</p>
             <p><b>Nama:</b> {data['name']}</p>
-            <p><b>isi:</b> {data['isi']}</p>
+            <p><b>jabatan:</b> {data['jabatan']}</p>
             """
         else:
             return f"User dengan ID {user_id} tidak ada!"
